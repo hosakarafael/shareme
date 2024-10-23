@@ -5,6 +5,7 @@ export interface LanguageEntity {
 
 const LANGUAGE_LIST = [
   { shortName: "en", longName: "English" },
+  { shortName: "pt", longName: "Português" },
   { shortName: "ja", longName: "日本語" },
 ];
 

@@ -40,7 +40,7 @@ export function LanguageProvider({ children }: LanguageProviderProps) {
     if (lng) {
       return setLanguage(getLanguageByShortName(lng));
     }
-    setLanguage(getLanguageByShortName(navigator.language));
+    setLanguage(getLanguageByShortName("en"));
   }, [user]);
 
   useEffect(() => {

@@ -1,0 +1,16 @@
+export const RECOVER_PASSWORD = {
+  recoverPasswordHeader: "Recuperar senha",
+  changePasswordHeader: "Alterar senha",
+  placeHolderEmail: "Digite seu email aqui...",
+  recoverPassword: "Recuperar senha",
+  back: "Voltar",
+  newPassword: "Nova senha",
+  confirmNewPassword: "Confirmar nova senha",
+  changePassword: "Alterar senha",
+  alertSentEmail: "Enviamos para você um email para alterar sua senha",
+  alertEmailNotFound: "Não conseguimos encontrar este email",
+  alertPasswordNotMatch: "As senhas não correspondem",
+  alertPasswordUpdated: "Sua senha foi alterada, porfavor faça login",
+  alertInvalidToken: "Token inválido",
+  alertExpiredToken: "Token expirado",
+};

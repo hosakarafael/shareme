@@ -12,9 +12,15 @@ import { MODAL } from "./Modal";
 import { DROPZONE } from "./Dropzone";
 import { DATE } from "./Date";
 import { COMMENT } from "./Comment";
+import { NAVBAR } from "./NavBar";
+import { FRIENDS } from "./Friends";
+import { GROUP } from "./Group";
+import { SEARCH_GROUP } from "./SearchGroup";
+import { NOTIFICATION } from "./Notification";
+import { PROFILE } from "./Profile";
 
 export const TRANSLATIONS_PT = {
-  loading: "loading",
+  loading: "carregando",
   REGISTER_FORM,
   CATEGORY,
   LOGIN_FORM,
@@ -29,4 +35,10 @@ export const TRANSLATIONS_PT = {
   DROPZONE,
   DATE,
   COMMENT,
+  NAVBAR,
+  FRIENDS,
+  GROUP,
+  SEARCH_GROUP,
+  NOTIFICATION,
+  PROFILE,
 };

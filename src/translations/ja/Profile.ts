@@ -12,7 +12,7 @@ export const PROFILE = {
   cancelRequest: "リクエストをキャンセル",
   addFriend: "友達を追加",
   editCoverPhoto: "カバー写真を編集",
-  modalUnfriendTitle: "{{fullName}}さんを友達から削除",
+  modalUnfriendTitle: "友達から削除",
   modalUnfriendDescription:
     "{{fullName}}さんを友達リストから削除してもよろしいでしょうか？",
 };

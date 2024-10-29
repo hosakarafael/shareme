@@ -226,9 +226,7 @@ const ProfileUserSection = ({ user, setUser }: ProfileUserSectionProps) => {
         <>
           <Modal
             show={showModal}
-            title={`${t("PROFILE.modalUnfriendTitle", {
-              fullName: fullName(user),
-            })}`}
+            title={`${t("PROFILE.modalUnfriendTitle")}`}
             description={t("PROFILE.modalUnfriendDescription", {
               fullName: fullName(user),
             })}

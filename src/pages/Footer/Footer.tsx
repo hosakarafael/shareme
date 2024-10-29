@@ -22,7 +22,7 @@ const Footer = () => {
           </option>
         ))}
       </select>
-      Rafael Hideki Hosaka © 2022 ShareMe {process.env.REACT_APP_VERSION}
+      Rafael Hideki Hosaka © 2024 ShareMe {process.env.REACT_APP_VERSION}
     </div>
   );
 };

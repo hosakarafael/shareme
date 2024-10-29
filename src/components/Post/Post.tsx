@@ -407,7 +407,7 @@ const Post = ({
               {post.likes.length}
               {post.likes.length > 1
                 ? ` ${t("POST.like_plural")}`
-                : ` ${t("POST.like")}`}
+                : ` ${t("POST.like_singular")}`}
             </span>
 
             <div>

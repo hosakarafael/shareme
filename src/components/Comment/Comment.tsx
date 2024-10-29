@@ -199,7 +199,7 @@ function Comment({ comment, onDelete, replyComment }: CommentProps) {
               liked ? css["liked"] : ""
             }`}
           >
-            {likeCount && likeCount > 0 && likeCount} {t("COMMENT.like")}
+            {` ${t("COMMENT.like")}`}
           </div>
           {comment.subComments && (
             <div
@@ -213,6 +213,15 @@ function Comment({ comment, onDelete, replyComment }: CommentProps) {
               {t("COMMENT.reply")}
             </div>
           )}
+          <div className={`${css["comment-action__total_like"]}`}>
+            {likeCount > 1
+              ? ` ${t("COMMENT.like_plural", {
+                  count: likeCount,
+                })}`
+              : ` ${t("COMMENT.like_singular", {
+                  count: likeCount,
+                })}`}
+          </div>
           <span className={css["comment__past-time"]}>
             {pastTimeFromDate(comment.dateCreated!, t)}
             <span className={css["comment__date"]}>

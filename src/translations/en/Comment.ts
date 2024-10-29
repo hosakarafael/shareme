@@ -1,8 +1,10 @@
 export const COMMENT = {
   like: "Like",
-  reply: "Reply",
+  like_singular: "{{count}} like",
+  like_plural: "{{count}} likes",
   reply_single: "{{count}} Reply",
   reply_plural: "{{count}} Replies",
+  reply: "Reply",
   deleteComment: "Delete comment",
   editComment: "Edit comment",
   save: "Save",

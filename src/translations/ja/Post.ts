@@ -6,6 +6,7 @@ export const POST = {
   share_singular: "シェア{{count}}件",
   share_plural: "シェア{{count}}件",
   like: "いいね！",
+  like_singular: "いいね！",
   like_plural: "いいね！",
   viewMoreComments: "他のコメントを見る",
   writeComment: "コメントする...",

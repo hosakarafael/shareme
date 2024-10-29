@@ -6,6 +6,7 @@ export const POST = {
   share_singular: "{{count}} Share",
   share_plural: "{{count}} Shares",
   like: "Like",
+  like_singular: "Like",
   like_plural: "Likes",
   viewMoreComments: "View more comments",
   writeComment: "Write a comment...",

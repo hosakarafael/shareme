@@ -106,7 +106,7 @@
   .menu__container {
     position: fixed;
     height: calc(100vh - 70px);
-    overflow-y: scroll;
+    overflow-y: auto;
     animation: slide 0.3s;
   }
 

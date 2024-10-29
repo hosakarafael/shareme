@@ -18,6 +18,13 @@ import { GROUP } from "./Group";
 import { SEARCH_GROUP } from "./SearchGroup";
 import { NOTIFICATION } from "./Notification";
 import { PROFILE } from "./Profile";
+import { PHOTO } from "./Photo";
+import { VIDEO } from "./Video";
+import { NEW_COMMENT } from "./NewComment";
+import { CHAT_MENU } from "./ChatMenu";
+import { SETTINGS } from "./Settings";
+import { SEARCH } from "./Search";
+import { MARKETPLACE } from "./Marketplace";
 
 export const TRANSLATIONS_PT = {
   loading: "carregando",
@@ -41,4 +48,11 @@ export const TRANSLATIONS_PT = {
   SEARCH_GROUP,
   NOTIFICATION,
   PROFILE,
+  PHOTO,
+  VIDEO,
+  NEW_COMMENT,
+  CHAT_MENU,
+  SETTINGS,
+  SEARCH,
+  MARKETPLACE,
 };

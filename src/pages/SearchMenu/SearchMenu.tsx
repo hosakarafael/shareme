@@ -111,7 +111,7 @@ function SearchMenu() {
         {loading ? <LoadingContainer /> : renderResult()}
       </main>
       <div className="left-content">
-        <MenuList title="Search Results">
+        <MenuList title={t("SEARCH.header")}>
           <span className={css["search-filter"]}>{t("SEARCH.filters")}</span>
           <MenuItem active={isActive("people")}>
             <div onClick={() => handleFilterSelected("people")}>
